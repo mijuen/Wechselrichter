@@ -496,13 +496,92 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgb(11, 25, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(11, 25, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SW",
+        "pcb_color": "rgb(185, 19, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(185, 19, 255)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VDC",
+        "pcb_color": "rgb(255, 7, 3)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 7, 3)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+18V": [
+        "VDC"
+      ],
+      "GND": [
+        "GND"
+      ],
+      "Net-(D3-K)": [
+        "SW"
+      ],
+      "Net-(J5-Pin_1)": [
+        "SW"
+      ],
+      "Net-(Q1-C)": [
+        "SW"
+      ],
+      "Net-(Q3-C)": [
+        "SW"
+      ],
+      "Net-(Q5-E)": [
+        "SW"
+      ],
+      "Net-(Q9-G)": [
+        "SW"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -645,7 +724,7 @@
         "uuid": "d4e448fd-ad96-44ed-8521-cba6468bbf3d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4-5,C5-6",
     "variants": []
   },
   "sheets": [
