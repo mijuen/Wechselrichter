@@ -569,7 +569,16 @@
       "Net-(J5-Pin_1)": [
         "SW"
       ],
+      "Net-(Q1-B)": [
+        "SW"
+      ],
       "Net-(Q1-C)": [
+        "SW"
+      ],
+      "Net-(Q1-E)": [
+        "SW"
+      ],
+      "Net-(Q12-B)": [
         "SW"
       ],
       "Net-(Q3-C)": [
@@ -724,7 +733,7 @@
         "uuid": "d4e448fd-ad96-44ed-8521-cba6468bbf3d"
       }
     ],
-    "used_designators": "D4-5,C5-6",
+    "used_designators": "D4-5,C5-6,Q1-3,Q11-17",
     "variants": []
   },
   "sheets": [
