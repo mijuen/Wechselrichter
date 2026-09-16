@@ -5701,7 +5701,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "810976bf-5ed8-4dec-aa5e-f4c2ff0f59d7")
 		(property "Reference" "D4"
 			(at 80.01 80.01 0)
@@ -7160,7 +7160,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c938addb-6608-451d-9e05-2a31cc69629e")
 		(property "Reference" "D5"
 			(at 80.01 140.97 0)
@@ -7576,7 +7576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n/50V"
+		(property "Value" "22p/50V"
 			(at 95.25 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n/50V"
+		(property "Value" "22p/50V"
 			(at 95.25 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,0 +1,29 @@
+Jumper wires:
+F3-H4
+F8-H9
+
+H1-K3
+H3-K4
+H6-K8
+H8-K9
+
+K3-N3
+
+
+M1-Q1
+
+O3-S2
+
+Q6-T1
+
+
+
+
+Solder bridges:
+
+K1-M1 ok
+K8-N8 ok
+
+O7-S7 ok
+
+Q1-Q2 ok
