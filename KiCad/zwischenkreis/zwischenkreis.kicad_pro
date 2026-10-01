@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "halbbruecke.kicad_pro",
+    "filename": "zwischenkreis.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -566,6 +566,12 @@
       "Net-(D3-K)": [
         "SW"
       ],
+      "Net-(D8-K)": [
+        "SW"
+      ],
+      "Net-(J11-Pin_1)": [
+        "SW"
+      ],
       "Net-(J5-Pin_1)": [
         "SW"
       ],
@@ -578,7 +584,19 @@
       "Net-(Q1-E)": [
         "SW"
       ],
+      "Net-(Q11-G)": [
+        "SW"
+      ],
       "Net-(Q12-B)": [
+        "SW"
+      ],
+      "Net-(Q18-C)": [
+        "SW"
+      ],
+      "Net-(Q20-C)": [
+        "SW"
+      ],
+      "Net-(Q22-E)": [
         "SW"
       ],
       "Net-(Q3-C)": [
@@ -589,6 +607,9 @@
       ],
       "Net-(Q9-G)": [
         "SW"
+      ],
+      "VDC": [
+        "VDC"
       ]
     },
     "netclass_patterns": []
@@ -728,18 +749,27 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "halbbruecke.kicad_sch",
-        "name": "halbbruecke",
+        "filename": "zwischenkreis.kicad_sch",
+        "name": "zwischenkreis",
         "uuid": "d4e448fd-ad96-44ed-8521-cba6468bbf3d"
+      },
+      {
+        "filename": "untitled.kicad_sch",
+        "name": "Untitled",
+        "uuid": "7cc52857-2598-454f-b243-1e6a10c7e169"
       }
     ],
-    "used_designators": "D4-5,C5-6,Q1-3,Q11-17",
+    "used_designators": "#PWR6-12,D4-8,C1,C5-11,Q1-4,Q11-24,#FLG3-6,R13-25,J7-18,H5-8,U1",
     "variants": []
   },
   "sheets": [
     [
       "d4e448fd-ad96-44ed-8521-cba6468bbf3d",
-      "halbbruecke"
+      "zwischenkreis"
+    ],
+    [
+      "7cc52857-2598-454f-b243-1e6a10c7e169",
+      "Untitled"
     ]
   ],
   "text_variables": {},
